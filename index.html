@@ -12,20 +12,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="bg-black">
-    <div name="header" class="flex justify-between items-center p-4 m-2 md:p-6 md:m-1">
+    <div name="header" class="flex justify-between items-center p-4 m-2 md:p-6 md:m-1 h-fit w-full">
         <div class="flex items-center">
             <p id="heading" class="font-bungee text-white text-3xl md:text-5xl lg:text-6xl">UZU</p>
             <p id="heading" class="font-bungee text-rose-600 text-3xl md:text-5xl lg:text-6xl">MAKI</p>
         </div>
-        <div id="topic" class="flex justify-between space-x-7">
+        <div id="topic" class="flex justify-end space-x-7 ml-auto">
             <a href="#" class="text-rose-200 hover:text-rose-600 text-3xl p-2 hidden md:block">HOME</a>
             <a href="#" class="text-rose-200 hover:text-rose-600 text-3xl p-2 hidden md:block">LIST</a>
             <a href="#" class="text-rose-200 hover:text-rose-600 text-3xl p-2 hidden md:block">POPULAR</a>
-
         </div>
     </div>   
     <div>
-        <div class="bg-[url('https://images.wallpapersden.com/image/download/sakamoto-days-cool_bmdmZm6UmZqaraWkpJRmaWllrW5lZQ.jpg')] bg-cover h-200 w-full">
+        <div class="bg-[url('https://images.wallpapersden.com/image/download/sakamoto-days-cool_bmdmZm6UmZqaraWkpJRmaWllrW5lZQ.jpg')] bg-cover h-auto w-fit">
             <div class="h-200 w-full bg-gradient-to-b from-black to-transparent">
                 <h1 id="topic" class="text-white text-7xl md:text-8xl lg:text-8xl text- pt-20 md:pt-40 p-30">Sakamoto Days</h1>
                 <div class="flex justify-between items-center space-x-4 pl-30">
@@ -43,8 +42,8 @@
     </div>
     <h1 class="text-rose-600 text-4xl md:text-5xl font-bold m-4 pt-20">| POPULAR</h1>
     <!-- Popular Anime Section -->
-    <div class="flex flex-wrap justify-start gap-6 p-4">
-        <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
+    <div class="flex gap-6 p-4 overflow-x-auto scrollbar-thin scrollbar-thumb-rose-600 scrollbar-track-gray-900" style="scrollbar-color: #e11d48 #18181b;">
+        <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg h-128 w-66 flex-shrink-0">
             <img src="https://images-cdn.ubuy.co.in/65da696fc3c24c2e08576864-trends-international-naruto-shippuden.jpg" alt="Naruto" class="w-66 h-100 object-cover">
             <div class="p-4">
                 <h2 class="text-white text-2xl font-bold">Naruto Shippuden</h2>
@@ -52,7 +51,7 @@
                 <p class="text-gray-300 text-sm mt-2">☆5.0</p>
             </div>
         </div>
-        <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
+        <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg h-128 w-66 flex-shrink-0">
             <img src="https://m.media-amazon.com/images/I/71K9dVP-72L._UF894,1000_QL80_.jpg" alt="Demon Slayer" class="w-66 h-100 object-cover">
             <div class="p-4">
                 <h2 class="text-white text-2xl font-bold">Demon Slayer</h2>
@@ -60,7 +59,7 @@
                 <p class="text-gray-300 text-sm mt-2">☆4.9</p>
             </div>
         </div>
-        <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
+        <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg h-128 w-66 flex-shrink-0">
             <img src="https://m.media-amazon.com/images/I/71ugKSErpsS._UF894,1000_QL80_.jpg" alt="Haikyu!!" class="w-66 h-100 object-cover">
             <div class="p-4">
                 <h2 class="text-white text-2xl font-bold">Haikyu!!</h2>
@@ -68,7 +67,7 @@
                 <p class="text-gray-300 text-sm mt-2">☆5.0</p>
             </div>
         </div>
-        <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
+        <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg h-128 w-66 flex-shrink-0">
             <img src="https://m.media-amazon.com/images/I/61eyyyGXMKL.jpg" alt="Fullmetal Alchemist" class="w-66 h-100 object-cover">
             <div class="p-4">
                 <h2 class="text-white text-2xl font-bold">Fullmetal Alchemist</h2>
@@ -76,7 +75,7 @@
                 <p class="text-gray-300 text-sm mt-2">☆5.0</p>
             </div>
         </div>
-        <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg w-66">
+        <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg  h-128 w-66 flex-shrink-0">
             <img src="https://m.media-amazon.com/images/I/61i9wi0eEgL.jpg" alt="Classroom Of The Elite" class="w-66 h-100 object-cover">
             <div class="p-4">
                 <h2 class="text-white text-2xl font-bold">Classroom Of The Elite</h2>
@@ -84,7 +83,7 @@
                 <p class="text-gray-300 text-sm mt-2">☆4.9</p>
             </div>
         </div>
-        <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
+        <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg h-128 w-66 flex-shrink-0">
             <img src="https://media-cache.cinematerial.com/p/500x/xuupa4kf/spy-x-family-japanese-movie-poster.jpg?v=1646381570" alt="Spy x Family" class="w-66 h-100 object-cover">
             <div class="p-4">
                 <h2 class="text-white text-2xl font-bold">Spy x Family</h2>
@@ -93,7 +92,7 @@
             </div>
         </div>
     </div>
-    <footer class="bg-rose-600 text-white text-center p-4 mt-10">
+    <footer class="bg-rose-600 text-white text-center p-4 mt-10 h-auto w-screen">
         <p class="text-sm">© 2025 Uzumaki. All rights reserved.</p>
         <p class="text-sm">Created by Ansh Kumar Sinha</p>
         <p class="text-sm">Follow me on <a href="https://github.com/intuitive-a" class="text-black hover:underline">GitHub</a></p>   
